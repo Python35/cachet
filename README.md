@@ -20,7 +20,9 @@ cp ../conf/.env.docker ./.env
 cd ..
 ```
 
-5. Build the container:
+5. Add APP KEY in Dockerfile Line 10.
+
+6. Build the container:
 
   ```shell
   docker build -t cachet .
